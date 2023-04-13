@@ -1,0 +1,12 @@
+kq=`expr $1 + $2`
+echo "Ket qua phep tinh: $1+$2=$kq"
+if test $kq -eq 10
+then
+echo 'Ban that hoan hao!'
+else 
+echo 'Ban binh thuong thoi!'
+fi
+for i in 2 3 4
+do
+echo -e "gia tri cua i: $i\n"
+done
